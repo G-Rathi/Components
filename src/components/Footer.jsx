@@ -189,7 +189,7 @@ const Footer = () => {
                     <Hr />
                     <CopyRightItems>
                         <span>&#169; 2021 | Real Estate & Luxury Homes</span>
-                        <span style={{ marginRight: '10px' }}>Site created by WebMatriks Technologies</span>
+                        <span style={{ marginRight: '5px' }}>Site created by WebMatriks Technologies</span>
                     </CopyRightItems>
                 </CopyRight>
             </div>
