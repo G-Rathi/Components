@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from "styled-components"
 import ScrollToTopBtn from './ScrollToTopBtn';
+import logo5 from '../logo/logo5.png'
 
 
 
@@ -31,8 +32,16 @@ const Left = styled.div`
         flex-direction: column;
         `;
 
-const Logo = styled.h1`
+const Logo = styled.span`
         cursor:pointer;
+        `;
+
+const LogoText = styled.div`
+        width:50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         `;
 
 const Desc = styled.p`
@@ -131,7 +140,17 @@ const Footer = () => {
                 <Wrapper>
 
                     <Left>
-                        <Logo>Mypencode</Logo>
+                        {/* <Logo>Mypencode</Logo> */}
+                        <Logo>
+                            <div>
+                                <img src={logo5} alt='logo' style={{ width: '50%' }} />
+                                <LogoText>
+                                    <span style={{ fontWeight: 'bold', fontSize: '25px' }}>ACC INFRA</span>
+                                    <span style={{ fontSize: '11px' }}>Let your dream be our project</span>
+                                </LogoText>
+                            </div>
+                        </Logo>
+
                         <Desc>
                             It is a long established fact that a render will be distracted by the readable content of a page when looking at its layout. The point of using Lorem lpsum is that it has a more-or-less normal
                         </Desc>
