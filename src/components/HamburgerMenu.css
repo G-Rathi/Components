@@ -1,0 +1,40 @@
+
+
+.hamburger{
+    color: white;
+    font-size: 1.8rem;
+    position: absolute;
+    right: 3.5rem;
+    top: 3rem;
+    z-index:4;
+    cursor: pointer;
+}
+
+.barContainer{
+    position: absolute;
+    top:0;
+    right:0;
+    width: 20rem;
+    height:100vh;
+    background:  linear-gradient(rgba(30,29,25,0.8),rgba(30,29,25,0.8));
+    z-index: 2;
+}
+
+.menuItemsContainer{
+    position: absolute;
+    top: 8rem;
+    width: 100%;
+    right: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    user-select: none;
+    z-index: 2;
+}
+
+.menuItem{
+      /* color: rgb(249, 247, 247); */
+      color: white;
+      margin: 0.5rem 0;
+      cursor: pointer;
+}
