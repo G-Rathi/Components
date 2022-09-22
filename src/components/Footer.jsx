@@ -129,13 +129,12 @@ const Footer = () => {
         <Container>
             <div>
                 <Wrapper>
+
                     <Left>
                         <Logo>Mypencode</Logo>
                         <Desc>
                             It is a long established fact that a render will be distracted by the readable content of a page when looking at its layout. The point of using Lorem lpsum is that it has a more-or-less normal
                         </Desc>
-
-
                     </Left>
 
 
@@ -159,7 +158,6 @@ const Footer = () => {
 
                             </List>
                         </div>
-
                     </Center>
 
 
@@ -184,6 +182,7 @@ const Footer = () => {
                             </SocialContainer>
                         </div>
                     </Right>
+
                 </Wrapper>
 
                 <CopyRight>

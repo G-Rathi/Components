@@ -36,13 +36,13 @@ const ScrollToTopBtn = () => {
         window.scrollTo({
             top: 0,
             behavior: 'smooth'
-            /* you can also use 'auto' behaviour
+            /* We can also use 'auto' behaviour
                in place of 'smooth' */
         });
     };
 
     // window.addEventListener('scroll', toggleVisible);
-    // style={{ display: visible ? 'inline' : 'inline' }} // this is attribute of icon
+
     return (
         <Button onClick={scrollToTop}>
             <i class="fa-sharp fa-solid fa-angle-up" />
